@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="top-block">
+            <div class="timer-block">01:00</div>
+            <div class="btn-block">
+                <button class="btn-style-start btn-style btn-none-sett">Start game!</button>
+                <button class="btn-style-check btn-style btn-none-sett" disabled="disabled">Check result</button>
+                <button class="btn-style-new-game btn-style btn-none-sett">New game</button>
+            </div>
+        </div>
+
+        <div class="bottom-block">
+            <div class="puzzle-container">
+                <div class="puzzle-left puzzle-area">
+                    <div class="puzzle-elem_14 puzzle-elem" data-number="14"></div>
+                    <div class="puzzle-elem_7 puzzle-elem" data-number="7"></div>
+                    <div class="puzzle-elem_2 puzzle-elem" data-number="2"></div>
+                    <div class="puzzle-elem_3 puzzle-elem" data-number="3"></div>
+                    <div class="puzzle-elem_8 puzzle-elem" data-number="8"></div>
+                    <div class="puzzle-elem_4 puzzle-elem" data-number="4"></div>
+                    <div class="puzzle-elem_5 puzzle-elem" data-number="5"></div>
+                    <div class="puzzle-elem_13 puzzle-elem" data-number="13"></div>
+                    <div class="puzzle-elem_6 puzzle-elem" data-number="6"></div>
+                    <div class="puzzle-elem_9 puzzle-elem" data-number="9"></div>
+                    <div class="puzzle-elem_1 puzzle-elem" data-number="1"></div>
+                    <div class="puzzle-elem_10 puzzle-elem" data-number="10"></div>
+                    <div class="puzzle-elem_11 puzzle-elem" data-number="11"></div>
+                    <div class="puzzle-elem_15 puzzle-elem" data-number="15"></div>
+                    <div class="puzzle-elem_16 puzzle-elem" data-number="16"></div>
+                    <div class="puzzle-elem_12 puzzle-elem" data-number="12"></div>
+                </div>
+                <div class="puzzle-right puzzle-area">
+                    <div class="puzzle-elem-right" data-number="1"></div>
+                    <div class="puzzle-elem-right" data-number="2"></div>
+                    <div class="puzzle-elem-right" data-number="3"></div>
+                    <div class="puzzle-elem-right" data-number="4"></div>
+                    <div class="puzzle-elem-right" data-number="5"></div>
+                    <div class="puzzle-elem-right" data-number="6"></div>
+                    <div class="puzzle-elem-right" data-number="7"></div>
+                    <div class="puzzle-elem-right" data-number="8"></div>
+                    <div class="puzzle-elem-right" data-number="9"></div>
+                    <div class="puzzle-elem-right" data-number="10"></div>
+                    <div class="puzzle-elem-right" data-number="11"></div>
+                    <div class="puzzle-elem-right" data-number="12"></div>
+                    <div class="puzzle-elem-right" data-number="13"></div>
+                    <div class="puzzle-elem-right" data-number="14"></div>
+                    <div class="puzzle-elem-right" data-number="15"></div>
+                    <div class="puzzle-elem-right" data-number="16"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-window hide">
+            <div class="modal-window-inner">
+                <div class="modal-window-text">
+                    <hr>
+                    <p class="modal-window-inner-text"></p>
+                    <hr>
+                </div>
+                <div class="modal-btns">
+                    <button class="modal-btn-close btn-none-sett modal-btn">Close</button>
+                    <button class="modal-btn-check btn-none-sett modal-btn">Check</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-background"></div>
+
+    </div>
+
+    <script src="script.min.js"></script>
+
+    <!-- Jquery UI -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

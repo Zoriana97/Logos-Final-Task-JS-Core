@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 37px;
+    position: relative;
+}
+
+.timer-block {
+    text-align: center;
+    font-size: 85px;
+    margin-bottom: 30px;
+}
+
+.btn-block {
+    margin-bottom: 20px;
+}
+
+.btn-none-sett {
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+
+.btn-none-sett:hover {
+    cursor: pointer;
+}
+
+.btn-style {
+    width: 110px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #e94544;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.btn-style:hover {
+    background-color: #d43530;
+}
+
+.btn-style:disabled {
+    background-color: #ee8684;
+}
+
+.btn-style:focus,
+.modal-btn-close:focus {
+    box-shadow: 0 0 2px 3px #f18e8e;
+}
+
+.puzzle-container {
+    display: flex;
+}
+
+.puzzle-area {
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    box-shadow: 0 0 11px 0px black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #eaeaea;
+    
+}
+
+.puzzle-elem,
+.puzzle-elem-right {
+    width: 87.5px;
+    height: 87.5px;
+    /* border: 1px solid #000; */
+}
+
+.puzzle-elem_1 {
+    background-image: url('this_img.png');
+    background-position: 0 350px;
+}
+
+.puzzle-elem_2 {
+    background-image: url('this_img.png');
+    background-position: -87.5px 350px;
+}
+
+.puzzle-elem_3 {
+    background-image: url('this_img.png');
+    background-position: -175px 350px;
+}
+
+.puzzle-elem_4 {
+    background-image: url('this_img.png');
+    background-position: -262.5px 350px;
+}
+
+.puzzle-elem_5 {
+    background-image: url('this_img.png');
+    background-position: 0px 262.5px;
+}
+
+.puzzle-elem_6 {
+    background-image: url('this_img.png');
+    background-position: -87.5px 262.5px;
+}
+
+.puzzle-elem_7 {
+    background-image: url('this_img.png');
+    background-position: -175px 262.5px;
+}
+
+.puzzle-elem_8 {
+    background-image: url('this_img.png');
+    background-position: -262.5px 262.5px;
+}
+
+.puzzle-elem_9 {
+    background-image: url('this_img.png');
+    background-position: 0px 175px;
+}
+
+.puzzle-elem_10 {
+    background-image: url('this_img.png');
+    background-position: -87px 175px;
+}
+
+.puzzle-elem_11 {
+    background-image: url('this_img.png');
+    background-position: -175px 175px;
+}
+
+.puzzle-elem_12 {
+    background-image: url('this_img.png');
+    background-position: -262.5px 175px;
+}
+
+.puzzle-elem_13 {
+    background-image: url('this_img.png');
+    background-position: 0px 87.5px;
+}
+
+.puzzle-elem_14 {
+    background-image: url('this_img.png');
+    background-position: -87.5px 87.5px;
+}
+
+.puzzle-elem_15 {
+    background-image: url('this_img.png');
+    background-position: -175px 87.5px;
+}
+
+.puzzle-elem_16 {
+    background-image: url('this_img.png');
+    background-position: -262.5px 87.5px;
+}
+
+
+.modal-window {
+    width: 550px;
+    /* height: 170px; */
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 50px;
+}
+
+/* .modal-window-text {
+    margin-top: 40px;
+} */
+
+.modal-window-inner {
+    padding: 40px 0 28px;
+}
+
+.modal-window-inner-text {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.modal-btns {
+    text-align: center;
+    margin-top: 17px;
+
+}
+
+.modal-btn {
+    padding: 10px 13px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.modal-btn-close {
+    background-color: #e94542;
+}
+
+.modal-btn-close:hover {
+    background-color: #c53c39;
+}
+
+.modal-btn-check {
+    background-color: #1d9442;
+}
+
+.modal-btn-check:hover {
+    background-color: #188039;
+}
+
+.modal-btn-check:focus{
+    box-shadow: 0 0 2px 3px #31c25f;
+}
+
+
+.modal-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    z-index: -1;
+}
+
+/* =============================== */
+
+.hide {
+    display: none;
+}
+
